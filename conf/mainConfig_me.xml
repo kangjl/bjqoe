@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<mainType title="QOE"/>
+	
+	<server value="http://127.0.0.1:8089/blazeds"/>
+	
+	<inner name="監控" id="1"> 
+		<outer name="網路" id="1">
+			<leftfirst name="">
+				<func src="wall" text="設備監控矩陣" target="com.nsn.qoe.ui.main.temp.DevMatrixMonitors"/>
+				<func src="wall" text="告警板" target="com.nsn.sbap.ui.monitor.alarmpad.view.component.AlarmPanel"/>
+				<func src="CustomMonitor" text="用户监控" target="com.nsn.qoe.ui.monitor.customer.view.component.CustomMonitor"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond name="">
+				<func src="wall" text="iMonitor設備監控" target="com.nsn.sbap.ui.monitor.imonitor.IMonitorDev"/>
+				<func src="wall" text="iMonitor WorkingSet監控" target="com.nsn.sbap.ui.monitor.imonitor.IMonitorWorkingSet"/>
+				<func src="QuickReport" text="快速报表" target="com.nsn.qoe.ui.report.view.component.QuickReport"/>
+				<func src="WorkingSetMonitor" text="场景监控" target="com.nsn.qoe.ui.monitor.workingset.view.component.WorkingSetMonitor"/>
+			</leftsecond>
+			<rightfirst name="">
+				<func src="wall_right" text="CDR 查询" target="com.nsn.sbap.ui.analysis.cdrWebQuery.view.component.CdrQuery"/>
+				<func src="wall_right" text="菜單 管理" target="com.nsn.sbap.ui.config.menu.view.component.FuncConfig"/> 
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond name="">
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="業務" id="2" disable="true">
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst >
+			<leftsecond>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="客戶" id="3" disable="true" >
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="產品" id="4" disable="true" >
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="管理" id="5" >
+			<leftfirst >
+				<func src="wall" text="Working Set管理" target="com.nsn.sbap.ui.config.workingset.view.component.WorkingSetView"/>
+				<func src="wall" text="監控範本管理" target="com.nsn.sbap.ui.config.monitoringmodel.view.component.MonitoringModelPanel"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="基線配置" target="com.nsn.sbap.ui.config.baseline.view.component.BaseLineAdd"/>
+				<func src="wall" text="告警配置" target="com.nsn.sbap.ui.config.alarmdefine.view.component.AlarmDefineView"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="聯合告警管理" target="com.nsn.sbap.ui.config.alarmmultidefine.view.component.AlarmMultiDefine"/>
+				<func src="wall_right" text="CDR 管理" target="com.nsn.sbap.ui.config.cdr.view.component.CdrConfig"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+	</inner>
+	<inner type="分析" id="2">
+		<outer name="網路" id="1">
+			<leftfirst >
+				<func src="wall" text="設備對比分析" target="com.nsn.sbap.ui.analysis.dev.view.component.DevCompAnalysis"/>
+				<func src="wall" text="地區對比分析" target="com.nsn.sbap.ui.analysis.area.view.component.AreaCompAnalysis"/>
+				<func src="wall" text="KPI對比分析" target="com.nsn.sbap.ui.analysis.contrast.view.component.KpiContrast"/>
+				<func src="wall" text="場測管理" target="com.nsn.sbap.ui.config.changce.view.component.Changce"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="PermissionsManagement" text="权限管理" target="com.nsn.qoe.ui.system.role.view.component.PermissionsManagement"/>
+				<func src="wall" text="話務快速查詢" target="com.nsn.sbap.ui.analysis.kpiQuickSearch.view.component.KpiQuickSearch"/>
+				<func src="wall" text="基於範本查詢" target="com.nsn.sbap.ui.analysis.templateSearch.view.component.TemplateSearch"/>
+				<func src="wall" text="告警聯合查詢" target="com.nsn.sbap.ui.monitor.alarmMultiSearch.view.component.AlarmMultiSearch"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="3G RAN" iframe="true" display="list" funGroupId="5001"/>
+				<func src="wall_right" text="3G SGSN" iframe="true" display="list" funGroupId="5002"/>
+				<func src="wall_right" text="3G CS" iframe="true" display="list" funGroupId="5003"/>
+				<func src="wall_right" text="RawCounter查询" target="com.nsn.sbap.ui.analysis.rawCounterQuery.view.component.RawCounterQuery"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="2G RAN" iframe="true" display="list" funGroupId="5004"/>
+				<func src="wall_right" text="SGSN" iframe="true" display="list" funGroupId="5005"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="業務" id="2" disable="true">
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="客戶" id="3" disable="true" >
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="效率" id="4" disable="true" >
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="管理" id="5"  >
+			<leftfirst >
+				<func src="wall" text="查詢範本管理" target="com.nsn.sbap.ui.config.querymodel.view.component.QueryModelView"/>
+				<func src="wall" text="基礎數據管理" target="com.nsn.sbap.ui.config.BaseDataConfig.view.component.BaseDataConfig"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="用户操作日誌查詢" target="com.nsn.sbap.ui.config.operationLogQuery.view.component.OperationLogQuery"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="角色管理" target="com.nsn.sbap.ui.config.role.view.component.RoleConfig"/>
+				<func src="wall_right" text="部門管理" target="com.nsn.sbap.ui.config.teamconller.view.component.TeamConfig"/>
+				<func src="wall_right" text="用戶管理" target="com.nsn.sbap.ui.config.user.view.component.UserConfig"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="用戶授權管理" target="com.nsn.sbap.ui.config.userDelegation.view.componet.UserDelegation"/>
+				<func src="wall_right" text="超級管理員維護" target="com.nsn.sbap.ui.config.Admin.view.component.AdminConfig"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+			
+		</outer>
+	</inner>
+	<inner type="E2E" id="3">
+		<outer name="客戶" id="1"  >
+			<leftfirst >
+				<func src="wall" text="VIP用戶分組監控" target="com.nsn.sbap.ui.monitor.vipgroup.view.component.GroupVipMonitorPanel"/>
+				<func src="wall" text="IPVPN C10業者業務監控" target="com.nsn.sbap.ui.monitor.ipVpnSubscrMonitor.view.component.IpVpnSubscrMonitor"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="IPVPN業務質量監控" target="com.nsn.sbap.ui.monitor.ipVpnVipMonitor.view.component.IpVpnVipMonitor"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="產品" id="2" disable="true" >
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="業務" id="3"  >
+			<leftfirst >
+				<func src="wall" text="E2E業務類型監控" target="com.nsn.sbap.ui.monitor.e2emonitor.view.component.BizTypeMonitor"/>
+				<func src="wall" text="E2E效能查詢 " target="com.nsn.sbap.ui.analysis.kqiEfficiencySearch.view.component.KqiEfficiencySearch"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="E2E快速報表" target="com.nsn.sbap.ui.e2eAnalysis.view.component.KqiQuickReport"/>
+				<func src="wall" text="E2E效能分析" target="com.nsn.sbap.ui.e2eAnalysis.view.component.KqiEfficiencyAnalysis"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="IPBB業務質量監控" target="com.nsn.sbap.ui.monitor.ipbb.view.component.IPBBMonitor"/>
+			    <func src="wall_right" text="IPVPN快速報表" target="com.nsn.sbap.ui.config.ipvpnReport.view.component.IpVpnQuickReport"/>
+				<func src="wall_right" text="IPVPN 查詢" target="com.nsn.sbap.ui.monitor.ipVpnTypeMonitor.view.component.IpVpnTypeMonitor"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="管理" id="4"  >
+			<leftfirst >
+				<func src="wall" text="VIP用戶管理" target="com.nsn.sbap.ui.config.vipmanagement.view.component.VipConfig"/>
+				<func src="wall" text="KPI映射管理" target="com.nsn.sbap.ui.config.kpimapping.view.component.KpiMapping"/>
+				<func src="wall" text="IPVPN用户管理" target="com.nsn.sbap.ui.config.ipvpnmanagement.view.component.IpVpnUserConfig"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="彙聚層KPI管理" target="com.nsn.sbap.ui.config.KqiConfig.view.component.AggKpi"/>
+				<func src="wall" text="KQI管理" target="com.nsn.sbap.ui.config.kqi.view.component.KqiConfig"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="" id="5" disable="true" >
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+	</inner>
+	
+</data>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+
+<tree_shebei label="全网">
+	 <tree_msc label="MSC1">
+					<tree_bsc label="BSC1">
+						<tree_cell label="CELL1"/>
+						<tree_cell label="CELL2"/>
+						<tree_cell label="CELL3"/>
+					</tree_bsc>
+					
+					<tree_bsc label="BSC2">
+						<tree_cell label="CELL1"/>
+						<tree_cell label="CELL2"/>
+						<tree_cell label="CELL3"/>
+					</tree_bsc>
+</tree_msc>
+</tree_shebei>
+
+
+
+

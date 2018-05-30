@@ -1,0 +1,971 @@
+/*
+KingnareStyle by Jinxin.
+Based on instructions from Adobe and inspired by Express Photoshop. 
+
+Copyright (c) 2008 www.kingnare.com  See:
+http://code.google.com/p/kingnarestyle
+or http://www.kingnare.com/auzn
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+of the Software, and to permit persons to whom the Software is furnished to do
+so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+Except as contained in this notice, the Software shall not be used in any commercial purposes.
+*/
+
+
+/*
+//------------------------------
+//  Application
+//------------------------------
+*/
+@namespace s "library://ns.adobe.com/flex/spark";
+@namespace mx "library://ns.adobe.com/flex/mx";
+mx|Application
+{
+	backgroundGradientAlphas: 1.0, 1.0;
+	backgroundGradientColors: #333333, #333333;
+	fontSize: 12;
+    fontFamily: "微软雅黑","Arial";
+	color:#CCCCCC;
+}
+
+/*
+//------------------------------
+//  ApplicationControlBar
+//------------------------------
+*/
+mx|ApplicationControlBar
+{
+	borderSkin: Embed(source="../swf/ipmstyle.swf", symbol="ApplicationControlBar_BackgroundSkin");
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial"; 
+	color:#CCCCCC;
+	/*borderSkin:Embed(source="images/topBar.png");
+	borderSkin: Embed(source="../swf/ipmstyle.swf", symbol="ApplicationControlBar_BackgroundSkin2");*/
+}
+
+
+/*
+//------------------------------
+//  Alert
+//------------------------------
+*/
+mx|Alert
+{
+	backgroundAlpha:1;
+	borderAlpha:1;
+	backgroundColor:#333333;
+	borderColor:#555555;
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color:#CCCCCC;
+	buttonStyleName: Button;
+}
+
+s|Alert
+{
+	backgroundAlpha:1;
+	borderAlpha:1;
+	backgroundColor:#333333;
+	borderColor:#555555;
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color:#CCCCCC;
+	buttonStyleName: Button;
+}
+
+/*
+//------------------------------
+//  Button
+//------------------------------
+*/
+mx|Button
+{
+	textRollOverColor: #CCCCCC;
+	textSelectedColor:#CCCCCC;
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color:#CCCCCC;
+}
+s|Button
+{
+	textRollOverColor: #CCCCCC;
+	textSelectedColor:#CCCCCC;
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color:#CCCCCC;
+}
+
+
+/*
+//------------------------------ 
+//  ButtonBar 
+//------------------------------ 
+*/ 
+
+mx|ButtonBar 
+{ 
+    buttonStyleName: "middleButtonBarButton"; 
+    firstButtonStyleName: "firstButtonBarButton"; 
+    lastButtonStyleName: "lastButtonBarButton";
+	fontSize: 10;
+	fontFamily: "微软雅黑","Arial";
+	color:#CCCCCC;
+}
+
+s|ButtonBar 
+{ 
+	buttonStyleName: "middleButtonBarButton"; 
+	firstButtonStyleName: "firstButtonBarButton"; 
+	lastButtonStyleName: "lastButtonBarButton";
+	fontSize: 10;
+	fontFamily: "微软雅黑","Arial";
+	color:#CCCCCC;
+}
+
+/*
+//------------------------------
+//  ComboBox
+//------------------------------
+*/
+mx|ComboBox
+{
+	textRollOverColor: #CCCCCC;
+	textSelectedColor:#CCCCCC;
+	textDisabledColor: #1e1e1e;
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+s|ComboBox
+{
+	textRollOverColor: #CCCCCC;
+	textSelectedColor:#CCCCCC;
+	textDisabledColor: #1e1e1e;
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+/*
+//------------------------------
+//  DataGrid
+//------------------------------
+*/
+mx|DataGrid
+{
+	textRollOverColor:#ffffff;
+	textSelectedColor:#ffffff;
+	rollOverColor:#808080;
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+	alternatingItemColors:#696969,#555555;
+	/*columnDropIndicatorSkin: Embed(source="../swf/ipmstyle.swf", symbol="DataGrid_columnDropIndicatorSkin");
+	columnResizeSkin: Embed(source="../swf/ipmstyle.swf", symbol="DataGrid_columnResizeSkin");
+	headerSeparatorSkin: Embed(source="../swf/ipmstyle.swf", symbol="DataGrid_headerSeparatorSkin"); 
+	sortArrowSkin: Embed(source="../swf/ipmstyle.swf", symbol="DataGrid_sortArrowSkin");
+	stretchCursor: Embed(source="../swf/ipmstyle.swf",symbol="DividedBox_horizontalCursor");
+	headerStyleName: "dataGridHeader";
+	color:#BBBBBB;
+	rollOverColor: #555555;
+	selectionColor: #333333;
+	selectiondDisabledColor: #1e1e1e;
+	borderStyle: solid;
+	borderThickness:1;
+	borderColor: #000000;
+	alternatingItemColors: #484848, #484848;
+	disabledColor: #666666;
+	verticalGridLineColor: #000000;
+	headerColors: #2D2D2D, #222222;
+	verticalGridLines: false;
+	horizontalGridLines: true;
+    horizontalGridLineColor: #444444;*/
+}
+
+s|DataGrid
+{
+	textRollOverColor:#ffffff;
+	textSelectedColor:#ffffff;
+	rollOverColor:#808080;
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+	alternatingItemColors:#696969,#555555;
+	/*columnDropIndicatorSkin: Embed(source="../swf/ipmstyle.swf", symbol="DataGrid_columnDropIndicatorSkin");
+	columnResizeSkin: Embed(source="../swf/ipmstyle.swf", symbol="DataGrid_columnResizeSkin");
+	headerSeparatorSkin: Embed(source="../swf/ipmstyle.swf", symbol="DataGrid_headerSeparatorSkin"); 
+	sortArrowSkin: Embed(source="../swf/ipmstyle.swf", symbol="DataGrid_sortArrowSkin");
+	stretchCursor: Embed(source="../swf/ipmstyle.swf",symbol="DividedBox_horizontalCursor");
+	headerStyleName: "dataGridHeader";
+	color:#BBBBBB;
+	rollOverColor: #555555;
+	selectionColor: #333333;
+	selectiondDisabledColor: #1e1e1e;
+	borderStyle: solid;
+	borderThickness:1;
+	borderColor: #000000;
+	alternatingItemColors: #484848, #484848;
+	disabledColor: #666666;
+	verticalGridLineColor: #000000;
+	headerColors: #2D2D2D, #222222;
+	verticalGridLines: false;
+	horizontalGridLines: true;
+	horizontalGridLineColor: #444444;*/
+}
+
+/*
+//------------------------------
+//  DateField
+//------------------------------
+*/
+mx|DateField
+{
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+s|DateField
+{
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+/*
+//------------------------------
+//  FormItem
+//------------------------------
+*/
+FormItem
+{
+	indicatorSkin: Embed(source="../swf/ipmstyle.swf",symbol="FormItem_indicatorSkin");
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+
+/*
+//------------------------------
+//  HDividedBox
+//------------------------------
+*/
+mx|HDividedBox
+{
+	dividerColor: #000000;
+	horizontalGap: 6;
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+/*
+//------------------------------
+//  Label
+//------------------------------
+*/
+mx|Label
+{
+	disabledColor: #BBBBBB;
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+s|Label
+{
+	disabledColor: #BBBBBB;
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+
+/*
+//------------------------------
+//  LinkButton
+//------------------------------
+*/
+mx|LinkButton
+{
+	rollOverColor: #444444;
+	textRollOverColor:#000000;
+	selectionColor: #222222;
+	focusAlpha: 0.1;
+	cornerRadius: 0;
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+s|LinkButton
+{
+	rollOverColor: #444444;
+	textRollOverColor:#000000;
+	selectionColor: #222222;
+	focusAlpha: 0.1;
+	cornerRadius: 0;
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+mx|Panel
+{
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+s|Panel
+{
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+/*
+//------------------------------
+//  PopUpButton
+//------------------------------
+*/
+PopUpButton
+{
+/* using symbol */
+/* 	disabledSkin: Embed(source="../swf/ipmstyle.swf", symbol="PopUpButton_disabledSkin");
+	downSkin: Embed(source="../swf/ipmstyle.swf", symbol="PopUpButton_downLeftSkin");
+	overSkin: Embed(source="../swf/ipmstyle.swf", symbol="PopUpButton_overLeftSkin");	
+	popUpDownSkin: Embed(source="../swf/ipmstyle.swf", symbol="PopUpButton_downRightSkin");
+	popUpOverSkin: Embed(source="../swf/ipmstyle.swf", symbol="PopUpButton_overRightSkin");
+	upSkin: Embed(source="../swf/ipmstyle.swf", symbol="PopUpButton_upSkin"); */
+/* using ClassReference */
+	upSkin: ClassReference("com.kingnare.skins.PopUpButton.PopUpButtonSkin");
+	disabledSkin: ClassReference("com.kingnare.skins.PopUpButton.PopUpButtonSkin");
+	downSkin: ClassReference("com.kingnare.skins.PopUpButton.PopUpButtonSkin");
+	overSkin: ClassReference("com.kingnare.skins.PopUpButton.PopUpButtonSkin");
+	popUpDownSkin: ClassReference("com.kingnare.skins.PopUpButton.PopUpButtonSkin");
+	popUpOverSkin: ClassReference("com.kingnare.skins.PopUpButton.PopUpButtonSkin");
+	
+	color: #cccccc;
+	textRollOverColor: #ffffff;
+	textSelectedColor:#ffffff;
+	textDisabledColor: #1e1e1e;
+	fontWeight:normal;
+	arrowButtonWidth:16;
+	fontFamily: "微软雅黑","Arial";
+}
+
+
+/*
+//------------------------------
+//  ProgressBar
+//------------------------------
+*/
+ProgressBar
+{
+	color: #CCCCCC;
+	barColor: #FFFFFF;
+	trackSkin: Embed(source="../swf/ipmstyle.swf", symbol="ProgressBarTrackSkin");
+	barSkin: Embed(source="../swf/ipmstyle.swf", symbol="ProgressBarSkin");
+	indeterminateSkin: Embed(source="../swf/ipmstyle.swf", symbol="ProgressIndeterminateSkin",
+	scaleGridTop="1",
+	scaleGridLeft="1",
+	scaleGridRight="199",
+	scaleGridBottom="5");
+}
+
+
+/*
+//------------------------------
+//  RadioButton
+//------------------------------
+*/
+mx|RadioButton
+{
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+s|RadioButton
+{
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+/*
+//------------------------------
+//  TabBar
+//------------------------------
+*/
+mx|TabBar
+{
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+s|TabBar
+{
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+.selectedTabText 
+{
+	textRollOverColor: #ffffff;
+	textSelectedColor:#aaaaaa;
+	disabledColor:#111111;
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+
+/*
+//------------------------------
+//  TabNavigator
+//------------------------------
+*/
+mx|TabNavigator
+{
+	borderStyle:solid;
+	borderColor:#000000;
+	borderThickness:1;
+	backgroundColor:#333333;
+	fontWeight:normal;
+	textRollOverColor: #ffffff;
+	textSelectedColor:#444444;
+	disabledColor:#111111;
+	paddingTop: 0;
+	
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+mx|ViewStack
+{
+	borderStyle:solid;
+	borderColor:#000000;
+	borderThickness:1;
+	backgroundColor:#333333;
+	fontWeight:normal;
+	textRollOverColor: #ffffff;
+	textSelectedColor:#444444;
+	disabledColor:#111111;
+	paddingTop: 0;
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+
+/*
+//------------------------------
+//  TextArea
+//------------------------------
+*/
+mx|TextArea
+{
+	borderColor: #000000;
+	backgroundAlpha: 1.0; 
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+s|TextArea
+{
+	borderColor: #000000;
+	backgroundAlpha: 1.0; 
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+
+/*
+//------------------------------
+//  TextInput
+//------------------------------
+*/
+mx|TextInput
+{
+	backgroundAlpha: 1.0;
+	color: #FFFFFF;
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+}
+
+s|TextInput
+{
+	backgroundAlpha: 1.0;
+	color: #FFFFFF;
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+}
+
+
+/*
+//------------------------------
+//  TitleWindow
+//------------------------------
+*/
+mx|TitleWindow
+{
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color:#CCCCCC;
+	buttonStyleName: Button;
+	closeButtonDisabledSkin: Embed(source="../swf/ipmstyle.swf",symbol="Panel_closeButtonDisabledSkin");
+	closeButtonDownSkin: Embed(source="../swf/ipmstyle.swf",symbol="Panel_closeButtonDownSkin");
+	closeButtonOverSkin: Embed(source="../swf/ipmstyle.swf",symbol="Panel_closeButtonOverSkin");
+	closeButtonUpSkin: Embed(source="../swf/ipmstyle.swf",symbol="Panel_closeButtonUpSkin");
+	titleStyleName: "windowTitle";
+	cornerRadius:2;
+	backgroundColor: #333333;
+	borderThickness:0;
+	controlBarStyleName: "windowControlBar"; 
+}
+
+s|TitleWindow
+{
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color:#CCCCCC;
+	buttonStyleName: Button;
+	closeButtonDisabledSkin: Embed(source="../swf/ipmstyle.swf",symbol="Panel_closeButtonDisabledSkin");
+	closeButtonDownSkin: Embed(source="../swf/ipmstyle.swf",symbol="Panel_closeButtonDownSkin");
+	closeButtonOverSkin: Embed(source="../swf/ipmstyle.swf",symbol="Panel_closeButtonOverSkin");
+	closeButtonUpSkin: Embed(source="../swf/ipmstyle.swf",symbol="Panel_closeButtonUpSkin");
+	titleStyleName: "windowTitle";
+	cornerRadius:2;
+	backgroundColor: #333333;
+	borderThickness:0;
+	controlBarStyleName: "windowControlBar"; 
+}
+
+.windowTitle
+{
+	verticalAlign:middle; 
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	fontWeight:"bold";
+	color:#CCCCCC;
+}
+.windowControlBar
+{
+	backgroundImage: Embed(source="../swf/ipmstyle.swf",symbol="ApplicationControlBar_BackgroundSkin");
+	backgroundSize:"100%";
+	fontSize: 12;
+	fontFamily: "微软雅黑","Arial";
+	color:#CCCCCC;
+}
+
+/*
+//------------------------------
+//  ToolTip
+//------------------------------
+*/
+mx|ToolTip
+{
+	backgroundColor: 0;
+	paddingLeft: 10;
+	paddingRight: 10;
+	fontSize:12;
+	fontFamily: "微软雅黑","Arial";
+	color: #FFFFFF;
+}
+
+s|ToolTip
+{
+	backgroundColor: 0;
+	paddingLeft: 10;
+	paddingRight: 10;
+	fontSize:12;
+	fontFamily: "微软雅黑","Arial";
+	color: #FFFFFF;
+}
+
+
+/*
+//------------------------------
+//  Tree
+//------------------------------
+*/
+mx|Tree
+{
+	defaultLeafIcon: Embed(source="../swf/ipmstyle.swf",symbol="Tree_defaultLeafIcon");
+	disclosureClosedIcon: Embed(source="../swf/ipmstyle.swf",symbol="Tree_disclosureClosedIcon");
+	disclosureOpenIcon: Embed(source="../swf/ipmstyle.swf",symbol="Tree_disclosureOpenIcon");
+	folderClosedIcon: Embed(source="../swf/ipmstyle.swf",symbol="Tree_folderClosedIcon");
+	folderOpenIcon: Embed(source="../swf/ipmstyle.swf",symbol="Tree_folderOpenIcon");
+	useRollOver: false;
+	backgroundColor: #333333;
+	fontSize:12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+	/* borderSkin: Embed(source="../swf/ipmstyle.swf",symbol="Tree_borderSkin");  */
+}
+
+s|Tree
+{
+	defaultLeafIcon: Embed(source="../swf/ipmstyle.swf",symbol="Tree_defaultLeafIcon");
+	disclosureClosedIcon: Embed(source="../swf/ipmstyle.swf",symbol="Tree_disclosureClosedIcon");
+	disclosureOpenIcon: Embed(source="../swf/ipmstyle.swf",symbol="Tree_disclosureOpenIcon");
+	folderClosedIcon: Embed(source="../swf/ipmstyle.swf",symbol="Tree_folderClosedIcon");
+	folderOpenIcon: Embed(source="../swf/ipmstyle.swf",symbol="Tree_folderOpenIcon");
+	useRollOver: false;
+	backgroundColor: #333333;
+	fontSize:12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+	/* borderSkin: Embed(source="../swf/ipmstyle.swf",symbol="Tree_borderSkin");  */
+}
+
+
+/*
+//------------------------------
+//  VDividedBox
+//------------------------------
+*/
+mx|VDividedBox
+{
+	dividerSkin: Embed(source="../swf/ipmstyle.swf",symbol="DividedBox_VDividerSkin");
+	verticalDividerCursor: Embed(source="../swf/ipmstyle.swf",symbol="DividedBox_verticalCursor");
+	dividerColor: #000000;
+	verticalGap: 6;
+	verticalAlign: top;
+	fontSize:12;
+	fontFamily: "微软雅黑","Arial";
+	color: #CCCCCC;
+}
+
+.titleImg{
+	background-image:Embed(source="../images/main/titlesty.png");
+}
+
+.searchButton
+{
+	upSkin: Embed(source="../swf/ipmstyle.swf", symbol="SearchButton_upSkin");
+	overSkin: Embed(source="../swf/ipmstyle.swf", symbol="SearchButton_overSkin");
+	downSkin: Embed(source="../swf/ipmstyle.swf", symbol="SearchButton_downSkin");
+	disabledSkin: Embed(source="../swf/ipmstyle.swf", symbol="SearchButton_disabledSkin");
+
+}
+
+.chartButton
+{
+	upSkin: Embed(source="../swf/ipmstyle.swf", symbol="ChartButton_upSkin");
+	overSkin: Embed(source="../swf/ipmstyle.swf", symbol="ChartButton_overSkin");
+	downSkin: Embed(source="../swf/ipmstyle.swf", symbol="ChartButton_downSkin");
+	disabledSkin: Embed(source="../swf/ipmstyle.swf", symbol="ChartButton_disabledSkin");
+ 
+}
+
+.myCanvas{
+	borderStyle:solid; 
+	borderColor:#444444; 
+	backgroundColor:#272727;
+}
+
+.refreshButton
+{
+	upSkin: Embed(source="../swf/ipmstyle.swf", symbol="RefreshButton_upSkin");
+	overSkin: Embed(source="../swf/ipmstyle.swf", symbol="RefreshButton_overSkin");
+	downSkin: Embed(source="../swf/ipmstyle.swf", symbol="RefreshButton_downSkin");
+	disabledSkin: Embed(source="../swf/ipmstyle.swf", symbol="RefreshButton_disabledSkin");
+
+}
+.zoomButton{
+	upSkin: Embed(source="../swf/ipmstyle.swf", symbol="ZoomButton_upSkin");
+	overSkin: Embed(source="../swf/ipmstyle.swf", symbol="ZoomButton_overSkin");
+	downSkin: Embed(source="../swf/ipmstyle.swf", symbol="ZoomButton_overSkin");
+	disabledSkin: Embed(source="../swf/ipmstyle.swf", symbol="ZoomButton_upSkin");
+}
+
+.exportButton{
+	upSkin: Embed(source="../swf/ipmstyle.swf", symbol="ExportButton_upSkin");
+	overSkin: Embed(source="../swf/ipmstyle.swf", symbol="ExportButton_overSkin");
+	downSkin: Embed(source="../swf/ipmstyle.swf", symbol="ExportButton_overSkin");
+	disabledSkin: Embed(source="../swf/ipmstyle.swf", symbol="ExportButton_upSkin");
+}
+
+/*线图按钮*/
+.lineChartButton
+{
+	upSkin: Embed(source="../swf/ipmstyle.swf", symbol="LineButton_upSkin");
+	overSkin: Embed(source="../swf/ipmstyle.swf", symbol="LineButton_overSkin");
+	downSkin: Embed(source="../swf/ipmstyle.swf", symbol="LineButton_downSkin");
+	disabledSkin: Embed(source="../swf/ipmstyle.swf", symbol="LineButton_disabledSkin");
+
+}
+
+/*柱图按钮*/
+.columnChartButton
+{
+	upSkin: Embed(source="../swf/ipmstyle.swf", symbol="ColumnButton_upSkin");
+	overSkin: Embed(source="../swf/ipmstyle.swf", symbol="ColumnButton_overSkin");
+	downSkin: Embed(source="../swf/ipmstyle.swf", symbol="ColumnButton_downSkin");
+	disabledSkin: Embed(source="../swf/ipmstyle.swf", symbol="ColumnButton_disabledSkin");
+}
+
+/*分页GO按钮*/
+.goButton
+{
+	upSkin: Embed(source="../swf/ipmstyle.swf", symbol="GoButton_upSkin");
+	overSkin: Embed(source="../swf/ipmstyle.swf", symbol="GoButton_overSkin");
+	downSkin: Embed(source="../swf/ipmstyle.swf", symbol="GoButton_downSkin");
+	disabledSkin: Embed(source="../swf/ipmstyle.swf", symbol="GoButton_disabledSkin");
+}
+
+/*由坏到好按钮*/
+.badToGoodButton
+{
+	upSkin: Embed(source="../swf/ipmstyle.swf", symbol="BadToGoodButton_upSkin");
+	overSkin: Embed(source="../swf/ipmstyle.swf", symbol="BadToGoodButton_overSkin");
+	downSkin: Embed(source="../swf/ipmstyle.swf", symbol="BadToGoodButton_downSkin");
+	disabledSkin: Embed(source="../swf/ipmstyle.swf", symbol="BadToGoodButton_disabledSkin");
+}
+
+/*由好到坏按钮*/
+.goodToBadButton
+{
+	upSkin: Embed(source="../swf/ipmstyle.swf", symbol="GoodToBadButton_upSkin");
+	overSkin: Embed(source="../swf/ipmstyle.swf", symbol="GoodToBadButton_overSkin");
+	downSkin: Embed(source="../swf/ipmstyle.swf", symbol="GoodToBadButton_downSkin");
+	disabledSkin: Embed(source="../swf/ipmstyle.swf", symbol="GoodToBadButton_disabledSkin");
+}
+
+/*选择按钮*/
+.selectButton
+{
+	upSkin: Embed(source="../swf/ipmstyle.swf", symbol="SelectButton_upSkin");
+	overSkin: Embed(source="../swf/ipmstyle.swf", symbol="SelectButton_overSkin");
+	downSkin: Embed(source="../swf/ipmstyle.swf", symbol="SelectButton_downSkin");
+	disabledSkin: Embed(source="../swf/ipmstyle.swf", symbol="SelectButton_disabledSkin");
+}
+
+.pageButtonNext{
+	upSkin: Embed(source="../images/pagination/page_btn_07.png");
+	overSkin: Embed(source="../images/pagination/page_btn_07_over.png");
+	downSkin: Embed(source="../images/pagination/page_btn_07.png");
+	disabledSkin: Embed(source="../images/pagination/page_btn_17.png");
+}
+.pageButtonBack{
+	upSkin: Embed(source="../images/pagination/page_btn_16.png");
+	overSkin: Embed(source="../images/pagination/page_btn_16_over.png");
+	downSkin: Embed(source="../images/pagination/page_btn_16.png");
+	disabledSkin: Embed(source="../images/pagination/page_btn_05.png");
+}
+.pageButtonFrist{
+	upSkin: Embed(source="../images/pagination/page_btn_15.png");
+	overSkin: Embed(source="../images/pagination/page_btn_15_over.png");
+	downSkin: Embed(source="../images/pagination/page_btn_15.png");
+	disabledSkin: Embed(source="../images/pagination/page_btn_03.png");
+}
+.pageButtonLast{
+	upSkin: Embed(source="../images/pagination/page_btn_09.png");
+	overSkin: Embed(source="../images/pagination/page_btn_09_over.png");
+	downSkin: Embed(source="../images/pagination/page_btn_09.png");
+	disabledSkin: Embed(source="../images/pagination/page_btn_18.png");
+}
+
+
+.menuShowBtn{
+	upSkin: Embed(source="../swf/ipmstyle.swf", symbol="menuShow");
+	overSkin: Embed(source="../swf/ipmstyle.swf", symbol="menuShow");
+	downSkin: Embed(source="../swf/ipmstyle.swf", symbol="menuShow");
+	disabledSkin: Embed(source="../swf/ipmstyle.swf", symbol="menuShow");
+}
+.menuHideBtn{
+	upSkin: Embed(source="../swf/ipmstyle.swf", symbol="menuHide");
+	overSkin: Embed(source="../swf/ipmstyle.swf", symbol="menuHide");
+	downSkin: Embed(source="../swf/ipmstyle.swf", symbol="menuHide");
+	disabledSkin: Embed(source="../swf/ipmstyle.swf", symbol="menuHide");
+}
+
+.errorTip
+{    
+     fontSize: 12;
+     bordercolor:#ff0000;
+     backgroud:#ff0000;
+     backgroudcolor:#ff0000;
+}
+.linkLabel{
+	color:#9c52ad;
+	textDecoration:underline;
+}
+@font-face
+{
+	font-family:timefont;
+	src:url("../ttf/digifaw.ttf");
+}
+.timeFontStyle
+{
+	font-family:timefont;
+	font-size:16;
+	color: #00FF00;
+}
+.searchTextInput{
+	borderStyle: none;
+	backgroundAlpha: 1.0;
+	borderColor: #B7BABC;
+	color: #FFFFFF;
+	borderSkin: Embed(source="../swf/../swf/ipmstyle.swf", symbol="SearchTextInput_borderSkin"); 
+	icon:Embed(source="../swf/../swf/ipmstyle.swf", symbol="Button_downSkin");
+	paddingLeft:22;
+}
+
+.loginTextInput{
+	borderStyle: none;
+	backgroundAlpha: 0;
+	color: #666666;
+	padding-left: 5;
+	padding-top: 4;
+	font-size:14;
+	borderSkin: Embed(source="../swf/ipmstyle.swf", symbol="LoginTextInput"); 
+}
+.loginButton{
+	upSkin: Embed(source="../swf/ipmstyle.swf", symbol="LoginButton_upSkin");
+	overSkin: Embed(source="../swf/ipmstyle.swf", symbol="LoginButton_overSkin");
+	downSkin: Embed(source="../swf/ipmstyle.swf", symbol="LoginButton_overSkin");
+	disabledSkin: Embed(source="../swf/ipmstyle.swf", symbol="LoginButton_overSkin");
+}
+
+/*
+//------------------------------
+//  superPanel
+//------------------------------
+*/
+.superPanel {
+	headerHeight: 26;
+	roundedBottomCorners: true;
+	borderThicknessTop: 0;
+	borderThicknessBottom: 3;
+	borderThicknessLeft: 3;
+	borderThicknessRight: 3;
+	dropShadowEnabled: false;
+	borderAlpha: 1.0;
+	titleStyleName: "mypanelTitle";
+	titleBackgroundSkin: Embed(source="../swf/ipmstyle.swf", symbol="SuperPanel_titleBackgroundSkin");
+}
+.mypanelTitle {
+	fontFamily: "微软雅黑","Arial";
+	fontSize: 12;
+	fontWeight: bold;
+	color:#000000
+}
+.closeBtn {
+	upSkin:        Embed('../images/main/closeButton.png');
+	overSkin:      Embed('../images/main/closeButton.png');
+	downSkin:      Embed('../images/main/closeButton.png');
+	disabledSkin:  Embed('../images/main/closeButton.png');
+}
+.increaseBtn {
+	upSkin:        Embed('../images/main/increaseButton.png');
+	overSkin:      Embed('../images/main/increaseButton.png');
+	downSkin:      Embed('../images/main/increaseButton.png');
+	disabledSkin:  Embed('../images/main/increaseButton.png');
+}
+.decreaseBtn {
+	upSkin:        Embed('../images/main/decreaseButton.png');
+	overSkin:      Embed('../images/main/decreaseButton.png');
+	downSkin:      Embed('../images/main/decreaseButton.png');
+	disabledSkin:  Embed('../images/main/decreaseButton.png');
+}
+.minimizeBtn {
+	upSkin:        Embed('../images/main/minimizeButton.png');
+	overSkin:      Embed('../images/main/minimizeButton.png');
+	downSkin:      Embed('../images/main/minimizeButton.png');
+	disabledSkin:  Embed('../images/main/minimizeButton.png');
+}
+.resizeHndlr {
+	upSkin:        Embed('../images/main/resizeHandler.png');
+	overSkin:      Embed('../images/main/resizeHandler.png');
+	downSkin:      Embed('../images/main/resizeHandler.png');
+	disabledSkin:  Embed('../images/main/resizeHandler.png');
+}
+/*
+//------------------------------
+//  superPanel end
+//------------------------------
+*/
+
+/*
+//------------------------------
+//  系统管理--当前用户背景
+//------------------------------
+*/
+.currentUserTextInput{
+	borderStyle: none;
+	backgroundAlpha: 1.0;
+	color: #505050;
+	borderSkin: Embed(source="../swf/yflexskin.swf", symbol="SysManage_userLabel_bg");
+	padding-left:10;
+	padding-top:2;
+}
+
+/*
+//------------------------------
+//  系统管理--返回首页按钮
+//------------------------------
+*/
+.goToHomeButton{
+	upSkin:        Embed(source="../swf/yflexskin.swf", symbol="SysManageButton_home_upSkin");
+	overSkin:      Embed(source="../swf/yflexskin.swf", symbol="SysManageButton_home_overSkin");
+	downSkin:      Embed(source="../swf/yflexskin.swf", symbol="SysManageButton_home_upSkin");
+	disabledSkin:  Embed(source="../swf/yflexskin.swf", symbol="SysManageButton_home_upSkin");
+}
+
+/*
+//------------------------------
+//  系统管理--退出按钮
+//------------------------------
+*/
+.outBotton{
+	upSkin:        Embed(source="../swf/yflexskin.swf", symbol="SysManageButton_out_upSkin");
+	overSkin:      Embed(source="../swf/yflexskin.swf", symbol="SysManageButton_out_overSkin");
+	downSkin:      Embed(source="../swf/yflexskin.swf", symbol="SysManageButton_out_upSkin");
+	disabledSkin:  Embed(source="../swf/yflexskin.swf", symbol="SysManageButton_out_upSkin");
+}
+
+.titleFontStyle{
+	color:#ECBD00;
+}
+
+.loginBackgroundImage{
+	backgroundImage:  Embed(source="../images/main/login_bg_black.jpg");
+}
+.loginContainerImage{
+	backgroundImage:  Embed(source="../images/main/login_bg_container.png");
+}
+/* End */
+
+/* DataGridColumn的標題置中 */
+.headerCustomStyle
+{
+	textAlign: 'center';
+}
+/* End */

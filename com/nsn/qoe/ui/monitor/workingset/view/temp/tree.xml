@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<node  label='北京'>  
+<node  label='海淀区'>  
+<node label='MSC01'>  
+<node  label='BSC01' />  
+<node  label='BSC02'/>  
+</node>
+</node>  
+<node  label='东城区'>  
+<node label='MSC02'>  
+<node  label='BSC03' />  
+<node  label='BSC04'/>  
+</node>
+</node>  
+<node label='朝阳区' >  
+<node label='MSC03'>  
+<node  label='BSC05' />  
+<node  label='BSC06'/>  
+</node>
+</node>
+</node>

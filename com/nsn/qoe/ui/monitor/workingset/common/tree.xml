@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<node label='root'>
+
+<business label='商务区'>  
+<business label='西单北商务区'/>
+<business label='五道口商务区'/>  
+</business>
+
+<school label='校园区'>  
+<school label='清华大学校区' />  
+<school label='人民大学校区' />  
+<school label='北京大学校区'/> 
+</school>
+
+<attractions label='旅游区' >
+<attractions label='北海公园' />  
+<attractions label='前海恭王府' />
+</attractions>
+
+<traffic label='交通干线' >  
+<traffic label='王府井大街' />  
+<traffic label='东四西大街' />
+</traffic>
+
+</node>

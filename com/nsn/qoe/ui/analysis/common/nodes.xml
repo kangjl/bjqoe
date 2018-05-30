@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+
+				<node label="核心网">
+					<tree_msc label="MSC">
+						<tree_msc label="系统接通率"/>
+						<tree_msc label="系统寻呼成功率"/>
+						<tree_msc label="MSC在呼率"/>
+					</tree_msc>
+					
+					<tree_bsc label="SGSN">
+						<tree_bsc label="SGSN-KPI01"/>
+						<tree_bsc label="SGSN-KPI02"/>
+						<tree_bsc label="SGSN-KPI03"/>
+					</tree_bsc>
+			   </node>
+		    
+  
+  	

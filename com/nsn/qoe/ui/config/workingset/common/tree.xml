@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<node label='root'>
+
+<hostpital label='医院'>  
+<hostpital label='三级甲等类'>  
+<hostpital label='北京360医院'/>  
+<hostpital label='北京协和医院'/>  
+</hostpital>
+</hostpital>
+
+<school label='学校'>  
+<school label='公立类中学'>  
+<school label='北京第十二中学' />  
+<school label='北京第二十五中学'/>  
+</school>
+</school>
+
+<marketplace label='超市' >  
+<marketplace label='地下类'>  
+<marketplace label='家乐福海淀黄庄店' />
+</marketplace>
+</marketplace>
+
+<subway label='地铁' >  
+<subway label='五号线'>  
+<subway label='五号线大屯东站' />
+</subway>
+</subway>
+
+</node>

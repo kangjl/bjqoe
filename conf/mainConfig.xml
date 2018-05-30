@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<mainType title="QOE"/>
+	
+	<server value="http://127.0.0.1:8089/blazeds"/>
+	
+	<inner name="監控" id="1"> 
+		<outer name="網路" id="1">
+			<leftfirst name="">
+				<func src="BusinessMonitor" text="业务监控" target="com.nsn.qoe.ui.monitor.businessmonitor.view.BusinessMonitor"/>
+				<func src="CustomMonitor" text="客户监控" target="com.nsn.qoe.ui.monitor.customer.view.component.CustomMonitor"/>
+				<func src="WorkingSetMonitor" text="场景监控" target="com.nsn.qoe.ui.monitor.workingset.view.component.WorkingSetMonitor"/>
+				 <func src="AlarmPanel" text="告警板" target="com.nsn.qoe.ui.monitor.alarmpad.view.AlarmPanel"/>
+                                 <func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond name="">
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst name="">
+				<func src="PcuAndPapu" text="PCU及PAPU监控" target="com.nsn.qoe.ui.monitor.pcuandpapu.view.component.PcuAndPapu"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond name="">
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="業務" id="2" disable="true">
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst >
+			<leftsecond>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="客戶" id="3" disable="true" >
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="產品" id="4" disable="true" >
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="管理" id="5" >
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+	</inner>
+	<inner type="分析" id="2">
+		<outer name="網路" id="1">
+			<leftfirst >
+			    
+				<func src="QuickReport" text="快速报表" target="com.nsn.qoe.ui.report.view.component.QuickReport"/>
+				<func src="KQIAlarmSearch" text="KQI 告警查询" target="com.nsn.qoe.ui.query.alarm.view.component.KQIAlarmSearch"/>
+				<func src="EquipmentAnalysis" text="设备对比分析" target="com.nsn.qoe.ui.analysis.equipment.view.EquipmentAnalysis"/>
+				<func src="wall" text="" target="null"/>
+		    </leftfirst>
+			<leftsecond >
+				<func src="SettingAnalysis" text="场景对比分析" target="com.nsn.qoe.ui.analysis.setting.view.component.SettingAnalysis"/>
+				<func src="MainSCcallingAnalysis" text="单通串话分析" target="com.nsn.qoe.ui.analysis.statistics.view.component.MainSCcallingAnalysis"/>
+				<func src="BlackHoleStatistics" text="寻呼黑洞统计" target="com.nsn.qoe.ui.analysis.statistics.view.component.BlackHoleStatistics"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="KpiContrast" text="KPI对比分析" target="com.nsn.qoe.ui.analysis.equipment.view.KpiContrast"/>	
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+			<!--
+				<func src="KPIMainSearch" text="KPI 查询" target="com.nsn.qoe.ui.query.rawcounter.view.component.KPIMainSearch"/>	
+				<func src="RAWCOUNTERMainSearch" text="RAWCOUNTER查询" target="com.nsn.qoe.ui.query.rawcounter.view.component.RAWCOUNTERMainSearch"/>
+			-->
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="業務" id="2" disable="true">
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="客戶" id="3" disable="true" >
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="效率" id="4" disable="true" >
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="管理" id="5"  >
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+			
+		</outer>
+	</inner>
+	<inner type="E2E" id="3">
+		<outer name="客戶" id="1"  >
+			<leftfirst >
+				<func src="KQIAlarmManagement" text="KQI 告警配置" target="com.nsn.qoe.ui.config.kqialarmdefine.view.component.KQIAlarmManagement"/>
+				<func src="UserManagement" text="用户管理" target="com.nsn.qoe.ui.system.user.view.component.UserManagement"/>
+				<func src="PermissionsManagement" text="权限管理" target="com.nsn.qoe.ui.system.role.view.component.PermissionsManagement"/>
+				<func src="WorkingSetManagement" text="场景管理" target="com.nsn.qoe.ui.config.workingset.view.component.WorkingSetManagement"/>			
+			</leftfirst>
+			<leftsecond >
+				<func src="OperationLog" text="操作日志" target="com.nsn.qoe.ui.system.log.view.component.OperationLog"/>
+				<func src="wall" text="" target="null"/>
+				<!--
+				<func src="VipConfig" text="集团及VIP客户管理" target="com.nsn.qoe.ui.config.vipmanagement.view.component.VipConfig"/>
+				-->
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="產品" id="2" disable="true" >
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="業務" id="3"  >
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+			    <func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="管理" id="4"  >
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+		<outer name="" id="5" disable="true" >
+			<leftfirst >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftfirst>
+			<leftsecond >
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+				<func src="wall" text="" target="null"/>
+			</leftsecond>
+			<rightfirst >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightfirst>
+			<rightsecond >
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+				<func src="wall_right" text="" target="null"/>
+			</rightsecond>
+		</outer>
+	</inner>
+	
+</data>

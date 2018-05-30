@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<node label="所有分类">
+  	<tree_jituankehu label="集团客户" value="http://www.baidu.com">
+  	
+    <tree_aaaa label="AAAA级"/>
+ 	<tree_aaa label="AAA级"/>
+ 	<tree_aa label="AA级"/>
+ 	<tree_a label="A级"/>
+  
+ 	</tree_jituankehu>
+ 
+ 	
+</node>

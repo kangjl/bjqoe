@@ -1,0 +1,30 @@
+  <?xml version="1.0" encoding="UTF-8" ?> 
+ <node label="所有分类">
+ <node label="北京市" value="http://www.baidu.com">
+ <node label="海淀区" value="http://www.youdao.com">
+ <node label="MSC01">
+  <node label="BSC01" /> 
+  <node label="BSC02" /> 
+  </node>
+  <node label="MSC02" /> 
+  </node>
+ <node label="昌平区">
+ <node label="MSC01">
+  <node label="BSC01" /> 
+  <node label="BSC02" /> 
+  </node>
+  </node>
+ <node label="朝阳区">
+ <node label="MSC01">
+  <node label="BSC01" /> 
+  <node label="BSC02" /> 
+  </node>
+  </node>
+ <node label="东城区">
+ <node label="MSC01">
+  <node label="BSC01" /> 
+  <node label="BSC02" /> 
+  </node>
+  </node>
+  </node>
+  </node>

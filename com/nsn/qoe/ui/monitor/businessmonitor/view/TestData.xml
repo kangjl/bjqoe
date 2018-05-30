@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chart lowerLimit='0' upperLimit='5' color="red" lowerLimitDisplay='0' upperLimitDisplay='5' 
+         bgcolor='FFFFFF' bgAlpha='0'  showGaugeBorder="0" borderAlpha="0">
+   <colorRange>
+   
+       <color minValue='0'  maxValue='1'   code='FF654F'/>
+       <color minValue='1' maxValue='3'   code='F6BD0F'/>
+       <color minValue='3' maxValue='5'  code='8BBA00'/>
+        
+       
+   </colorRange>
+   <dials>
+       <dial value='3.83' toolText="VOICE" text="AAAA" />
+   </dials>
+   
+    <styles>
+ <definition>
+  <style name="TTipFont" type="font" color="FFFFFF" bgColor="333333" borderColor="333333" font="Verdana" size="10" /> 
+  <style name="ValueFont" type="font" size="10" color="FFFFFF" bold="0" /> 
+  <style name="LimitFont" type="font" size="10" color="FFFFFF" bold="0" /> 
+  </definition>
+ <application>
+  <apply toObject="TOOLTIP" styles="TTipFont" /> 
+  <apply toObject="TICKVALUES" styles="ValueFont" /> 
+  <apply toObject="LIMITVALUES" styles="LimitFont" /> 
+  </application>
+  </styles>
+   
+   
+</chart>
+  
+  
+  
+  

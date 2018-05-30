@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<node label="所有分类">
+ 
+ <tree_vip label="VIP客户" value="http://www.baidu.com">
+ 	<tree_zuanshika label="钻石级"/>
+ 	<tree_baijinka label="白金级"/>
+ 	<tree_jinka label="金牌级"/>
+ 	<tree_yinka label="银牌级"/>
+  </tree_vip>	
+  	
+</node>
